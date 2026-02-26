@@ -15,6 +15,35 @@ When Superpowers is active, the Antigravity agent follows this protocol for opti
 - **Task completion**: Update `task.md` immediately after every logical step.
 - **Verification**: Use mandatory verification blocks in your walkthroughs.
 
+## Reporting Templates
+
+### `task.md` Template
+Every task must start with a `task.md` in the `<brain-dir>`.
+```markdown
+# Task: [Broad Objective]
+
+- [/] [First Granular Task] <!-- id: 0 -->
+    - [ ] [Sub-task 1] <!-- id: 1 -->
+- [ ] [Second Granular Task] <!-- id: 2 -->
+```
+
+### `walkthrough.md` Template
+Every completed task must conclude with a `walkthrough.md`.
+```markdown
+# Walkthrough - [Objective]
+
+## Changes Made
+- Summary of key changes.
+
+## Verification
+### Automated Tests
+- Command + Result
+
+### Manual Verification
+- Screenshot/Recording link
+- Narrative of verification steps
+```
+
 ## Discipline
 - **No Shortcuts**: Follow the letter of the skills even when they feel "obvious".
 - **Evidence First**: Never claim a task is done without trailing it in a terminal or showing a screenshot.
