@@ -90,9 +90,6 @@ When multiple skills could apply, use this order:
 
 The skill itself tells you which.
 
-## Discipline Check
-If you are unsure if you are following the protocol correctly, invoke the `discipline-check` skill to perform a self-audit of your workflow. This is especially recommended before completing major milestones.
-
 ## User Instructions
 
 Instructions say WHAT, not HOW. "Add X" or "Fix Y" doesn't mean skip workflows.
