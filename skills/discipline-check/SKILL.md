@@ -1,29 +1,27 @@
 ---
 name: discipline-check
-description: Use to self-evaluate implementation quality and protocol adherence
+description: Use to self-evaluate logic density, naming quality, and session efficiency
 ---
 
 # Discipline Check
 
-Invoke this skill when you need to verify if your current session or a completed task meets the high standards of the Superpowers framework.
+Invoke this skill to verify if your code and session structure meet the high standards of the Superpowers framework.
 
-## Self-Evaluation Checklist
+## Quality Checklist
 
-### 1. Planning
-- [ ] Did I use the `brainstorming` skill BEFORE the `implementation_plan`?
-- [ ] Is the `implementation_plan` comprehensive and approved by the user?
-- [ ] Are all files grouped by component?
+### 1. Logic Density
+- [ ] Is the code "dense" (avoiding boilerplate where possible)?
+- [ ] Have I used native platform features effectively?
+- [ ] Are functions focused on a single responsibility?
 
-### 2. Execution
-- [ ] Am I using the `task_boundary` tool correctly (PredictedTaskSize, Mode, TaskName, etc.)?
-- [ ] Is my `task.md` updated after every logical step?
-- [ ] Am I avoiding "placeholders" and "summarized" code in my edits?
+### 2. Naming & Clarity
+- [ ] Are variable names descriptive but concise?
+- [ ] Is the documentation free of "fluff" and "meta-talk"?
+- [ ] Does the `walkthrough.md` focus on evidence rather than narrative?
 
-### 3. Verification
-- [ ] Did I run automated tests for every change?
-- [ ] Does my `walkthrough.md` contain "Evidence First" (terminal logs, screenshots)?
-- [ ] Have I acknowledged mistakes or backtracking in my narrative?
+### 3. Session Efficiency
+- [ ] Have I minimized unnecessary tool calls (e.g., redundant `ls` or `view_file`)?
+- [ ] Am I keeping my `task_boundary` updates meaningful?
 
-## The "Vipassana" Test
-Before every action, ask:
-> "Am I acting out of habit or am I grounded in a skill?"
+## Self-Audit
+> "If a human reviewer saw this session, would they find it professional and efficient?"
